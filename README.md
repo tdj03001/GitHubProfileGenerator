@@ -32,3 +32,8 @@ The profile will be populated with the as many of the following as each GitHub p
 https://github.com/tdj03001/GitHubProfileGenerator
 
 #### Sources
+
+UPenn Week 9 Activity 40 Mini-project
+https://nodejs.org/en/docs/
+https://www.npmjs.com/package/electron-html-to
+
