@@ -1,3 +1,4 @@
+//set up pdf styling by color which will be chosen by the user
 const colors = {
   green: {
     wrapperBackground: "#E6E1C3",
@@ -25,8 +26,8 @@ const colors = {
   }
 };
 
+//this function will return the generated HTML using the user's github profile data inserted into various locations in this template literal.
 function generateHTML(data) {
-  console.log(data.stars);
   return `<!DOCTYPE html>
 <html lang="en">
    <head>
@@ -245,4 +246,5 @@ function generateHTML(data) {
 </html>`
 }
 
+//export for use in index.js
 module.exports = generateHTML;
