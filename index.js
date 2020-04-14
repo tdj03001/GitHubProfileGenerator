@@ -1,7 +1,9 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
+const generateHTML = require("./generateHTML");
 
+const writeFileAsync = util.promisify(fs.writeFile);
 
 
 function promptUser() {
@@ -24,3 +26,14 @@ function promptUser() {
 
 
 promptUser()
+  .then(function (answers) {
+    const html = generateHTML(answers);
+
+    return writeFileAsync("index.html", html);
+  })
+  .then(function () {
+    console.log("Successfully wrote to index.html");
+  })
+  .catch(function (err) {
+    console.log(err);
+  });
