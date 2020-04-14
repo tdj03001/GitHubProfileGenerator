@@ -27,8 +27,8 @@ function promptUser() {
 
     api
       .getUsername(github).then(response =>
-        api.getStarCount(github).then(starCount => {
-          return generateHTML({ starCount, color, ...response.data });
+        api.getStarCount(github).then(stars => {
+          return generateHTML({ stars, color, ...response.data });
         })
       ).then(html => {
         const conversion = convertFactory({

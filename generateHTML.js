@@ -26,6 +26,7 @@ const colors = {
 };
 
 function generateHTML(data) {
+  console.log(data.stars);
   return `<!DOCTYPE html>
 <html lang="en">
    <head>
@@ -241,7 +242,7 @@ function generateHTML(data) {
          </main>
       </div>
    </body>
-</html>`;
+</html>`
 }
 
 module.exports = generateHTML;
