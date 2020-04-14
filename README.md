@@ -1,4 +1,4 @@
-# UPenn-Week-9-Homework-NodeJSgithubProfileGenerator
+## UPenn-Week-9-Homework-NodeJSgithubProfileGenerator
 
 
 ## Purpose
@@ -29,5 +29,6 @@ The profile will be populated with the as many of the following as each GitHub p
 
 #### GitHub Repo
 
+https://github.com/tdj03001/GitHubProfileGenerator
 
 #### Sources
