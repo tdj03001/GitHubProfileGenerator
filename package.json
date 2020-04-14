@@ -1,0 +1,25 @@
+{
+  "name": "githubprofilegenerator",
+  "version": "1.0.0",
+  "description": "generate github pdf profile using axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdj03001/GitHubProfileGenerator.git"
+  },
+  "author": "Tyler Jenkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdj03001/GitHubProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/tdj03001/GitHubProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.2"
+  }
+}
