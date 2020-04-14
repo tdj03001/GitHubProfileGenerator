@@ -26,6 +26,8 @@ The profile will be populated with the as many of the following as each GitHub p
 
 ### Screenshot
 
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 
 #### GitHub Repo
 
@@ -36,4 +38,3 @@ https://github.com/tdj03001/GitHubProfileGenerator
 UPenn Week 9 Activity 40 Mini-project
 https://nodejs.org/en/docs/
 https://www.npmjs.com/package/electron-html-to
-
