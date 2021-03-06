@@ -1,4 +1,4 @@
-//set up required packages and directory files
+//set up required packages and directory filess
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
